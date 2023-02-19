@@ -1,0 +1,58 @@
+.navbar-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+nav ul {
+    display: flex;
+    float: right;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 25px;
+    font-size: 25px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: orangered;
+}
+
+.logo-div img {
+    width: 200px;
+    margin-top: 10px;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .navbar-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .logo-div img {
+        width: 150px;
+
+
+    }
+
+   .nav-link {
+        
+      
+         
+    }
+
+    nav ul li {
+        list-style: none;
+        margin-right: 10px;
+        font-size: 20px;
+
+
+    }
+}

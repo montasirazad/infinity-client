@@ -1,11 +1,12 @@
 import './App.css';
+import Navbar from './Components/shared/Navbar/Navbar';
 
 
 function App() {
   return (
     <div >
-      <h1>infinity</h1>
        
+       <Navbar/>
     </div>
   );
 }
