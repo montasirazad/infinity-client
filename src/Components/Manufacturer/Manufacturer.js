@@ -1,13 +1,14 @@
 import React from 'react';
 import Header from '../shared/Header/Header';
 
-const About = () => {
+const Manufacturer = () => {
     return (
-        <div >
+        <div>
             <Header />
-            <h1 >this is about</h1>
+            <h1>Manufacturer
+                Manufacturer</h1>
         </div>
     );
 };
 
-export default About;
+export default Manufacturer;

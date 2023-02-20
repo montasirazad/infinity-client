@@ -2,7 +2,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import About from './Components/About/About';
 import Home from './Components/Home/Home';
+import Manufacturer from './Components/Manufacturer/Manufacturer';
 import Products from './Components/Products/Products';
+import Retail from './Components/Reatail/Retail';
 import Services from './Components/Services/Services';
 import Navbar from './Components/shared/Header/Header';
 
@@ -16,7 +18,8 @@ function App() {
     { path: '/home', element: <Home /> },
     { path: '/about', element: <About /> },
     { path: '/products', element: <Products /> },
-    { path: '/services', element: <Services /> }
+    { path: '/retail', element: <Retail /> },
+    { path: '/manufacturer', element: <Manufacturer /> },
 
   ])
 
@@ -25,9 +28,9 @@ function App() {
   return (
     <div >
 
-      
+
       <RouterProvider router={router}>
-      
+
       </RouterProvider>
 
     </div>

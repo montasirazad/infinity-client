@@ -22,13 +22,13 @@ const Header = () => {
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="me-auto">
-                                <Nav.Link as={Link}>Home</Nav.Link>
+                                <Nav.Link as={Link} to={'/'}>Home</Nav.Link>
                                 <Nav.Link as={Link} to={'/about'}>About</Nav.Link>
                                 <Nav.Link as={Link} to={'/products'}>Products</Nav.Link>
                                 <NavDropdown title="Services" id="basic-nav-dropdown">
-                                    <NavDropdown.Item href="#action/3.1">Retail</NavDropdown.Item>
+                                    <NavDropdown.Item as={Link} to={'/retail'}>Retail</NavDropdown.Item>
 
-                                    <NavDropdown.Item href="#action/3.2">
+                                    <NavDropdown.Item as={Link} to={'/manufacturer'}>
                                         Manufacturer
                                     </NavDropdown.Item>
 
