@@ -43,4 +43,10 @@ nav a:hover {
         font-size: 16px;
         color: white;
     }
+nav{
+    height: 40px;
+}
+    .logo-div img {
+        width: 150px;
+    }
 }
