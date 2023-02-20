@@ -1,0 +1,15 @@
+.header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.logo-div {
+    /* border: 2px solid red; */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-div img{
+    height: 50px;
+}
