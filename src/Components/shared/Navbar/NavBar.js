@@ -4,23 +4,23 @@ import './Navbar.css';
 
 const Navbar = () => {
     return (
-        <div className='navbar-container'>
+        <div className='header'>
 
             <div className='logo-div'>
-                <img src={infinityLogo} alt="" />
+                <a href="">
+                    <img src={infinityLogo} alt="" />
+                </a>
             </div>
 
-            <div className='nav-link'>
-                <nav >
-                    <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Products</a></li>
-                        <li><a href="">Retail</a></li>
-                        <li><a href="">Manufacturer</a></li>
+            <nav >
 
-                    </ul>
-                </nav>
-            </div>
+                <a href="">Home</a>
+                <a href="">Products</a>
+                <a href="">Retail</a>
+                <a href="">Manufacturer</a>
+                <a href="">Log in</a>
+            </nav>
+
         </div>
     );
 };
