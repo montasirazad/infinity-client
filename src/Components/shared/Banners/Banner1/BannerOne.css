@@ -1,0 +1,14 @@
+.banner1-div   {
+   
+     display: grid;
+     align-items: center;
+     justify-content: center;
+     margin-top: 50px;
+
+}
+
+.banner1-img{
+    height: 150px;
+    width: 60vw;
+}
+

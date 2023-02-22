@@ -16,26 +16,41 @@ const Header = () => {
             </div>
 
             <div className='my-3'>
-                <Navbar style={{ background: 'orange' }} expand="lg">
+                <Navbar className='nav-bar' expand="lg">
                     <Container>
-                       
+
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
-                            <Nav className="me-auto">
-                                <Nav.Link as={Link} to={'/'}>Home</Nav.Link>
+                            <Nav className="me-auto mx-5">
+                                <Nav.Link as={Link} to={'/'} >Home</Nav.Link>
                                 <Nav.Link as={Link} to={'/about'}>About</Nav.Link>
                                 <Nav.Link as={Link} to={'/products'}>Products</Nav.Link>
+
                                 <NavDropdown title="Services" id="basic-nav-dropdown">
                                     <NavDropdown.Item as={Link} to={'/retail'}>Retail</NavDropdown.Item>
+                                    <NavDropdown.Item as={Link} to={'/wholesale'}>Wholesale</NavDropdown.Item>
 
                                     <NavDropdown.Item as={Link} to={'/manufacturer'}>
                                         Manufacturer
                                     </NavDropdown.Item>
-
-
-
-
                                 </NavDropdown>
+
+                                <NavDropdown title="More products" id="basic-nav-dropdown">
+                                    <NavDropdown.Item as={Link} to={'/retail'}>option-1 </NavDropdown.Item>
+                                    <NavDropdown.Item as={Link} to={'/retail'}>option-2 </NavDropdown.Item>
+                                    <NavDropdown.Item as={Link} to={'/retail'}>option-3</NavDropdown.Item>
+                                    <NavDropdown.Item as={Link} to={'/retail'}>option-4</NavDropdown.Item>
+                                    <NavDropdown.Item as={Link} to={'/retail'}>option-5</NavDropdown.Item>
+                                    <NavDropdown.Item as={Link} to={'/retail'}>option-6</NavDropdown.Item>
+
+
+
+                                    <NavDropdown.Item as={Link} to={'/manufacturer'}>
+                                        Manufacturer
+                                    </NavDropdown.Item>
+                                </NavDropdown>
+
+                                <Nav.Link as={Link} to={'/login'}>login</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>

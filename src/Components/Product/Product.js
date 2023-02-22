@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 
 
 const Product = (props) => {
-    const { id, name, volume, material, type, use, img } = props.product
+    const { name, volume, material, type, use, img } = props.product
     return (
         <div className='my-4 mx-4'>
             <Card style={{ width: '18rem' }}>
