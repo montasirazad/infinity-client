@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from 'react-router-dom';
 import infinityLogo from '../../../image/infinity-logo.png';
+import CallIcon from '@mui/icons-material/Call';
 import './Header.css';
 
 const Header = () => {
@@ -21,7 +22,7 @@ const Header = () => {
 
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
-                            <Nav className="me-auto mx-5">
+                            <Nav className="me-auto mx-5" >
                                 <Nav.Link as={Link} to={'/'} >Home</Nav.Link>
                                 <Nav.Link as={Link} to={'/about'}>About</Nav.Link>
                                 <Nav.Link as={Link} to={'/products'}>Products</Nav.Link>
@@ -30,8 +31,8 @@ const Header = () => {
                                     <NavDropdown.Item as={Link} to={'/retail'}>Retail</NavDropdown.Item>
                                     <NavDropdown.Item as={Link} to={'/wholesale'}>Wholesale</NavDropdown.Item>
 
-                                    <NavDropdown.Item as={Link} to={'/manufacturer'}>
-                                        Manufacturer
+                                    <NavDropdown.Item as={Link} to={'/our-partners'}>
+                                        Our partner
                                     </NavDropdown.Item>
                                 </NavDropdown>
 
@@ -43,14 +44,12 @@ const Header = () => {
                                     <NavDropdown.Item as={Link} to={'/retail'}>option-5</NavDropdown.Item>
                                     <NavDropdown.Item as={Link} to={'/retail'}>option-6</NavDropdown.Item>
 
-
-
-                                    <NavDropdown.Item as={Link} to={'/manufacturer'}>
-                                        Manufacturer
-                                    </NavDropdown.Item>
                                 </NavDropdown>
 
                                 <Nav.Link as={Link} to={'/login'}>login</Nav.Link>
+                                <p className='my-2 mx-3 text-white'><CallIcon /> Hotline:+88 01234567890</p>
+
+
                             </Nav>
                         </Navbar.Collapse>
                     </Container>

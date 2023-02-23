@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Samsung Smart Plaza",
+        "id": "1",
+        "img": "https://media.e-valy.com/cms/brands/logo/d6f8dbe8-c79c-4160-a99e-4c9fb8758a61",
+        "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut impedit eligendi praesentium similique molestias harum."
+    },
+    {
+        "name": "O CODE",
+        "id": "2",
+        "img": "https://media.e-valy.com/cms/brands/logo/53bb220f-8e42-4232-a110-7fc1226d27c5",
+        "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut impedit eligendi praesentium similique molestias harum."
+    },
+    {
+        "name": "Unilever",
+        "id": "10",
+        "img": "https://www.unilever.com/core-assets/logos/logo-animated.svg",
+        "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut impedit eligendi praesentium similique molestias harum."
+    },
+    {
+        "name": "Pran",
+        "id": "4",
+        "img": "https://media.e-valy.com/cms/brands/logo/1e792a8b-9aa9-42dc-bb94-23145c91da98",
+        "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut impedit eligendi praesentium similique molestias harum."
+    },
+    {
+        "name": "Nestle Bangladesh",
+        "id": "5",
+        "img": "https://media.e-valy.com/cms/brands/logo/c6f8a30f-6d26-43ec-9e82-05f90c16b367",
+        "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut impedit eligendi praesentium similique molestias harum."
+    },
+    {
+        "name": "Fresh",
+        "id": "6",
+        "img": "https://media.e-valy.com/cms/brands/logo/a0698a86-6453-4ba8-94a2-97ea4323526d",
+        "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut impedit eligendi praesentium similique molestias harum."
+    },
+    {
+        "name": "Monarch",
+        "id": "7",
+        "img": "https://media.e-valy.com/cms/brands/logo/fc7eaa99-7c2f-4528-b818-8f8b2b82ac1f",
+        "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut impedit eligendi praesentium similique molestias harum."
+    },
+    {
+        "name": "Aarong",
+        "id": "8",
+        "img": "data:image/png;base64,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",
+        "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut impedit eligendi praesentium similique molestias harum."
+    },
+    {
+        "name": "PnG",
+        "id": "9",
+        "img": "https://images.ctfassets.net/oggad6svuzkv/7znyJc3Y7SecEoKSYKWoaQ/4a24e9015c360799cfb072adcd92cc5e/P_G_Logo_RGB.svg",
+        "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut impedit eligendi praesentium similique molestias harum."
+    },
+    {
+        "name": "Flora Limited",
+        "id": "3",
+        "img": "https://media.e-valy.com/cms/brands/logo/6bac10c1-b9a3-478b-9dbf-5534f4474b7f",
+        "details": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut impedit eligendi praesentium similique molestias harum."
+    }
+]

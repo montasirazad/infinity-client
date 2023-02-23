@@ -120,7 +120,6 @@ const Products = () => {
     return (
         <div>
             <Header />
-
             <div className='d-flex justify-content-evenly flex-wrap '>
                 {
                     allProducts.map(product => <Product key={product.id} product={product}></Product>)

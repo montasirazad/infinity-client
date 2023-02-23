@@ -3,7 +3,7 @@ import './App.css';
 import About from './Components/About/About';
 import Home from './Components/Home/Home';
 import Login from './Components/Login/Login';
-import Manufacturer from './Components/Manufacturer/Manufacturer';
+import OurPartners from './Components/OurPartners/OurPartners';
 import Products from './Components/Products/Products';
 import Retail from './Components/Retail/Retail';
 import Wholesale from './Components/WholeSale/Wholesale';
@@ -20,7 +20,13 @@ function App() {
     { path: '/products', element: <Products /> },
     { path: '/retail', element: <Retail /> },
     { path: '/wholesale', element: <Wholesale /> },
-    { path: '/manufacturer', element: <Manufacturer /> },
+    {
+      path: '/our-partners',
+      loader: () => {
+        return fetch('ourPartner.json')
+      },
+      element: <OurPartners />
+    },
     { path: '/login', element: <Login /> },
 
   ])

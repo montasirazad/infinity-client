@@ -1,11 +1,14 @@
 .header {
     display: grid;
     grid-template-columns: 300px auto;
+     /* position: absolute; */
 }
 
 
 .nav-bar {
     background-color: rgb(250, 173, 30);
+    font-size: 19px;
+     
     
 
 }
